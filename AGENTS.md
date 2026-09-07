@@ -2,14 +2,21 @@
 
 ## Repository Overview
 
-This repository currently contains documentation only. Keep changes focused on the requested documentation or repository guidance.
+- Streamlit으로 만드는 1페이지 MVP
+- 순수 Python, 외부 DB 없음
 
 ## Working Guidelines
 
-- Read the relevant existing documentation before editing it.
-- Preserve the existing Markdown style and keep edits minimal.
-- Do not add generated files or dependencies unless the task requires them.
-- Do not commit changes unless explicitly requested.
+-의존성 설치: pip install -r requirements.txt
+-앱 실행: streamlit run app.py
+```
+
+## Code Style
+
+- Use Markdown headings to organize documentation clearly.
+- Use fenced code blocks with a language identifier for commands and examples.
+- Keep prose concise and use plain ASCII unless non-ASCII text is required.
+- Preserve existing formatting and avoid unrelated rewrites.
 
 ## Validation
 
